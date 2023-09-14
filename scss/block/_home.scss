@@ -1,0 +1,69 @@
+.title{
+  @include font($f-color:#fff,$f-family:'Khula',$f-size:24px,$f-height:77px,$f-weight:700);
+}
+.all-swiper__wrapper{
+  position: relative;    
+}
+.mySwiper{
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+
+  }
+.swiper {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.darlings{
+  position: absolute;
+  z-index: 3;
+  top: 149px;
+  left: 117px;
+  display: flex;
+  flex-direction: column;
+  h3{
+    @include font($f-family: 'Insparation',$f-color:#fff,$f-size:150px,$f-weight: 400,$f-height: 77px);
+    margin-bottom: 52px;
+  }
+  button{
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    max-width: 151px;
+    height: 48px;
+  }
+  span{
+    display: flex;
+    gap: 20px;
+  }
+  .play__btn{
+    padding: 18px;
+    gap: 5px;
+    color: #000;
+    @include font($f-family: 'Khula',$f-color:#000,$f-size:26px,$f-weight: 700,$f-height: 77px)
+  }
+  .home__btn{
+    padding: 18px;
+    background-color: #c1bfbf;
+    @include font($f-family: 'Khula',$f-color:#fff,$f-size:26px,$f-weight: 700,$f-height: 77px)
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <div class="container">
+            <div class="nav__wrapper">
+                <img src="./images/pngwing 1.png" alt="">
+                <ul class="nav__list">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">TV-SHOWS</a></li>
+                    <li><a href="#">MOVIES</a></li>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">POPULAR</a></li>
+                </ul>
+                <input placeholder="Search" class="search" type="search">
+            </div>
+        </div>
+   </header>
+   <main>
+        <section class="home">
+            <div class="container">
+                <div class="all-swiper__wrapper">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        
+                    </div>
+                    <div class="darlings">
+                        <h3>Darlings</h3>
+                        <span>
+                            <button class="play__btn"><img src="./images/play.svg" alt=""> Play</button>
+                            <button class="home__btn"> More Info</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hollywood">
+            <div class="container">
+                <div class="hollywood__wrapper">
+                    <span>
+                        <div class="swiper hollywoodSwiper">    
+                            <h3 class="title">Hollywood Movies</h3>
+                            <div id="hollywood" class="swiper-wrapper"> 
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="trending">
+            <div class="container">
+                <div class="tranding__wrapper">
+                    <span>
+                        <div class="swiper trendingSwiper">    
+                            <h3 class="title">Trending Now</h3>
+                            <div id="trending" class="swiper-wrapper"> 
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="top">
+            <div class="container">
+                <div class="top__wrapper">
+                    <span>
+                        <div class="swiper topSwiper">    
+                            <h3 class="title">Top Always</h3>
+                            <div id="top" class="swiper-wrapper"> 
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="serials">
+            <div class="container">
+                <div class="serials__wrapper">
+                    <span>
+                        <div class="swiper serialsSwiper">    
+                            <h3 class="title">Serials</h3>
+                            <div id="serials" class="swiper-wrapper"> 
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="cartoons">
+            <div class="container">
+                <div class="cartoons__wrapper">
+                    <span>
+                        <div class="swiper cartoonsSwiper">    
+                            <h3 class="title">Cartoons</h3>
+                            <div id="cartoons" class="swiper-wrapper"> 
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script/swiperhome.js"></script>
+    <script src="./script/home.js"></script>
+</body>
+</html>

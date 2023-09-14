@@ -1,0 +1,47 @@
+.InfoWrapper {
+    display: flex;
+    gap: 20px;
+    span{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        .rating{
+            flex-grow: 1;
+        }
+    }
+}
+.back{
+    margin-top: 20px;
+    padding: 10px 20px;
+    @include font($f-color:#000000, $f-size:20px,$f-weight:400,$f-height:14px);
+    border: none;
+}
+
+.moveiImg{
+    img{
+        width: 989px;
+        height: 532px;  
+    };
+}
+.moveiTitle{
+    @include font($f-size:40px)
+}
+.moveiInfo{
+    @include font($f-size:14px,$f-weight:400,$f-height:14px)
+}
+.rating{
+    @include font($f-size:20px,$f-weight:400,$f-height:14px)
+}
+.date{
+    @include font($f-size:20px,$f-weight:400,$f-height:14px)
+}
+.language {
+    @include font($f-size:20px,$f-weight:400,$f-height:14px);
+    margin-top: 25px;
+}

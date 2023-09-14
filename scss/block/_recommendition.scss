@@ -1,0 +1,20 @@
+.recommendition__list::-webkit-scrollbar{
+    display: none;
+}
+.recommendition__list{
+    // margin-top: 200px;
+   display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    max-width: 1475px;
+    gap: 50px;
+    li{
+        img{
+            width: 394px;
+            height: 212px;
+        }
+        .movie__name{
+            @include font($f-size:16px,$f-height:normal)
+        }
+    }
+}

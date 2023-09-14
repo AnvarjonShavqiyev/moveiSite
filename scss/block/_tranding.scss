@@ -1,0 +1,22 @@
+.trending__list::-webkit-scrollbar{
+    display: none;
+}
+.trandingWrapper{
+    margin-top: 180px;
+}
+.trending__list{
+   display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    max-width: 1475px;
+    gap: 50px;
+    li{
+        img{
+            width: 394px;
+            height: 212px;
+        }
+        .movie__name{
+            @include font($f-size:16px,$f-height:normal)
+        }
+    }
+}

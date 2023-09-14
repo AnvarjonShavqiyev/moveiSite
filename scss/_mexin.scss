@@ -1,0 +1,8 @@
+@mixin font($f-color:#FFF,$f-family:'Khula',$f-size:21px,$f-style:normal,$f-weight:400,$f-height:77px){
+    color: $f-color;
+    font-family: $f-family;
+    font-size: $f-size;
+    font-style: $f-style;
+    font-weight: $f-weight;
+    line-height: $f-height;
+}
