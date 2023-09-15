@@ -36,6 +36,6 @@ function renderInfo(data){
 
 backBtn.addEventListener("click",()=>{
     localStorage.removeItem('movieId')
-    window.location.replace(window.location + "/moveiSite");
+    window.location.replace("https://anvarjonshavqiyev.github.io/moveiSite/");
 
 })
