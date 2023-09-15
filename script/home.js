@@ -137,6 +137,6 @@ document.body.addEventListener('click',(e)=>{
     e.preventDefault()
     if(e.target.closest('[data-index]')){
         localStorage.setItem('movieId',e.target.closest('[data-index]').dataset.index)
-        window.location.replace(window.location.origin + "/pages/moveInfo.html");
+        window.location.replace(window.location.origin + "../pages/moveInfo.html");
     }
 })
